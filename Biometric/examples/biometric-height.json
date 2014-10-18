@@ -2,7 +2,7 @@
   "dataType": "biometric-height",
   "dataSource": "manual",
   "uuid": "2b0b8801-c5e2-4b2d-a61a-31681eb95093",
-  "timestamp": "1413555528",
-  "height": "65",
+  "timestamp": 1413555528,
+  "height": 65,
   "measurementScale": "in"
 }

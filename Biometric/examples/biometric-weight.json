@@ -1,0 +1,8 @@
+{
+  "dataType": "biometric-weight",
+  "dataSource": "Fitbit Aria",
+  "uuid": "2b0b8801-c5e2-4b2d-a61a-31681eb95093",
+  "timestamp": "1413555528",
+  "weight": "123",
+  "measurementScale": "pounds"
+}

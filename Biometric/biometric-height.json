@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Biometric Height Schema",
+  "type": "object",
+  "properties": {
+    "dataType": {
+      "type": "string"
+    },
+    "dataSource": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "string"
+    },
+    "timestamp":{
+      "type": "number"
+    },
+    "height": {
+      "type": "number"
+    },
+    "measurementScale":{
+      "type": "string"
+    }
+  },
+  "required": ["dataType", "dataSource", "uuid", "timestamp", "height", "measurementScale"]
+}

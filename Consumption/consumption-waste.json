@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Consumption Waste Schema",
+  "type": "object",
+  "properties": {
+    "dataType": {
+      "type": "string"
+    },
+    "dataSource": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "string"
+    },
+    "timestamp":{
+      "type": "number"
+    },
+    "urine": {
+      "type": "boolean"
+    },
+    "feces":{
+      "type": "boolean"
+    },
+  },
+  "required": ["dataType", "dataSource", "uuid", "timestamp", "urine", "feces"]
+}

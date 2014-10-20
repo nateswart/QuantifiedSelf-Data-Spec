@@ -1,0 +1,9 @@
+{
+  "dataType":"biometric-emotional",
+  "dataSource":"manual",
+  "energyLevel":5,
+  "mood":3,
+  "stressLevel":1,
+  "uuid":"64759c11-e432-45a9-ad1b-a49b791549e9",
+  "timestamp":1413765928
+}

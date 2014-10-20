@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Biometric Emotional Schema",
+  "type": "object",
+  "properties": {
+    "dataType": {
+      "type": "string"
+    },
+    "dataSource": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "string"
+    },
+    "timestamp":{
+      "type": "number"
+    },
+    "energyLevel": {
+      "type": "number"
+    },
+    "mood":{
+      "type": "number"
+    },
+    "stressLevel":{
+      "type": "number"
+    }
+  },
+  "required": ["dataType", "dataSource", "uuid", "timestamp"]
+}

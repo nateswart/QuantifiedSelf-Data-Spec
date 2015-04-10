@@ -18,6 +18,9 @@
     "weight": {
       "type": "number"
     },
+    "bmi": {
+      "type": "number"
+    }
     "measurementScale":{
       "type": "string"
     }

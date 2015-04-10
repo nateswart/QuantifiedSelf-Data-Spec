@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Media Audio Scrobble Schema",
+  "type": "object",
+  "properties": {
+    "dataType": {
+      "type": "string"
+    },
+    "dataSource": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "string"
+    },
+    "timestamp":{
+      "type": "number"
+    },
+    "artist": {
+      "type": "string"
+    },
+    "trackName":{
+      "type": "string"
+    },
+    "albumName":{
+      "type": "string"
+    },
+    "genre":{
+      "type": "string"
+    },
+    "trackUrl":{
+      "type":string"
+    },
+  },
+  "required": ["dataType", "dataSource", "uuid", "timestamp", "artist", "trackName"]
+}

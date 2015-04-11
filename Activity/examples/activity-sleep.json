@@ -1,0 +1,17 @@
+{
+  "dataType": "activity-sleep",
+  "dataSource": "Fitbit Charge HR",
+  "uuid": "2b0b8801-c5e2-4b2d-a61a-31681eb95093",
+  "timestamp": 1413555528,
+  "restlessCount": 123, 
+  "timeAwake": 1413555528, 
+  "totalTimeSlept": 123, 
+  "awakeCount": 123,
+  "timeToFallAsleep": 123,
+  "fellAsleepAt": 1413555528,
+  "timeToFallAsleepSeconds": 123,
+  "timeAwakeSeconds": 123, 
+  "timeToLeaveBedSeconds": 123,
+  "timeToLeaveBed": 123,
+  "awokeAt": 1413555528
+}

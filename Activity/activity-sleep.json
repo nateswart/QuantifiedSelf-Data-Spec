@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Activity Sleep Schema",
+  "type": "object",
+  "properties": {
+    "dataType": {
+      "type": "string"
+    },
+    "dataSource": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "string"
+    },
+    "timestamp":{
+      "type": "number"
+    },
+    "restlessCount": {
+      "type": "number"
+    },
+    "timeAwake":{
+      "type": "number"
+    }
+    "totalTimeSlept":{
+      "type": "number"
+    }
+    "awakeCount":{
+      "type":"number"
+    }
+    "timeToFallAsleep":{
+      "type":"number"
+    }
+    "fellAsleepAt":{
+      "type":"number"
+    }
+    "timeToFallAsleepSeconds":{
+      "type":"number"
+    }
+    "timeAwakeSeconds":{
+      "type":"number"
+    }
+    "timeToLeaveBedSeconds":{
+      "type:"number"
+    }
+    "timeToLeaveBend":{
+      "type":"number"
+    }
+    "awokeAt":{
+      "type":"number"
+    }
+  },
+  "required": ["dataType", "dataSource", "uuid", "timestamp"] 
+}
+
